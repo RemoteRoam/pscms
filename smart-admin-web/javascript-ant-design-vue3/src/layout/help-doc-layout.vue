@@ -66,7 +66,7 @@ import { useAppConfigStore } from '../store/modules/system/app-config';
 import SmartFooter from './components/smart-footer/index.vue';
 import { helpDocApi } from '/src/api/support/help-doc-api';
 import { helpDocCatalogApi } from '/src/api/support/help-doc-catalog-api';
-import logoImg from '/@/assets/images/logo/smart-admin-logo-white.png';
+import logoImg from '/@/assets/images/logo/smart-admin-logo.png';
 import { SmartLoading } from '/@/components/framework/smart-loading';
 import { HOME_PAGE_NAME } from '/@/constants/system/home-const';
 import watermark from '../lib/smart-watermark';

@@ -12,7 +12,7 @@
   <div class="login-container">
     <div class="box-item desc">
       <div class="welcome">
-        <p>天传樱科管理后台</p>
+        <p>产品体系认证管理系统</p>
         <p class="sub-welcome">快捷高效、品质保证</p>
       </div>
       <img class="welcome-img" src="/@/assets/images/login/left-bg2.png" />

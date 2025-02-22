@@ -27,11 +27,11 @@ export const appDefaultConfig = {
   // 页脚
   footerFlag: true,
   // 帮助文档
-  helpDocFlag: false,
+  helpDocFlag: true,
   // 水印
   watermarkFlag: true,
   // 网站名称
-  websiteName: '天传樱科管理后台',
+  websiteName: '认证管理系统',
   // 主题颜色
   primaryColor: 'red',
   // 紧凑

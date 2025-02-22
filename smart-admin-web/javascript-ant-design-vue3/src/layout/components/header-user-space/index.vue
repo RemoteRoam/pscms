@@ -19,6 +19,11 @@
     <div class="user-space-item">
       <HeaderAvatar />
     </div>
+    <!---帮助文档--->
+    <div class="user-space-item" @click="showHelpDoc" v-if="showHelpDocFlag">
+      <span>帮助文档</span>
+      <!-- <DoubleLeftOutlined v-if="!helpDocExpandFlag" /> -->
+    </div>
 
     <HeaderSetting ref="headerSetting" />
   </a-space>
@@ -46,11 +51,16 @@ function showMessage() {
 
 //帮助文档
 function showHelpDoc() {
-  useAppConfigStore().showHelpDoc();
+  window.open('/#/help-doc', '_blank');
+  // useAppConfigStore().showHelpDoc();
 }
 
 const showHelpDocFlag = computed(() => {
   return useAppConfigStore().helpDocFlag;
+});
+
+const helpDocExpandFlag = computed(() => {
+  return useAppConfigStore().helpDocExpandFlag;
 });
 
 //搜索
