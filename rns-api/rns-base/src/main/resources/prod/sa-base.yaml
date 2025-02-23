@@ -108,7 +108,7 @@ http:
     keep-alive: 300000
 
 # 跨域配置
-access-control-allow-origin: 'mcolife.cn'
+access-control-allow-origin: 'yynomad.com'
 
 # 心跳配置
 heart-beat:
